@@ -21,8 +21,8 @@
                 })
                 
 
-                // show the todo in the frontend
-                const newNode = document.createElement("div");
+                // show the note in the frontend
+                const noteNode = document.createElement("div");
                 noteNode.innerHTML = document.getElementById("userNote").value;
                 noteNode.setAttribute("style", "border: 2px solid black; padding: 10px; margin: 10px; border-radius: 5px;");
                 document.getElementById("notes").appendChild(noteNode);
